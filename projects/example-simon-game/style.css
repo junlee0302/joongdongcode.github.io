@@ -1,0 +1,65 @@
+img{
+  position:absolute;
+  height:30vh;
+  width:30vh;
+}
+#image0{
+  top:15vh;
+  left:calc(calc(100vw - 60vh) / 2)
+
+}
+#image1{
+   top:15vh;
+  right:calc(calc(100vw - 60vh) / 2)
+}
+#image2{
+  top:45vh;
+  left:calc(calc(100vw - 60vh) / 2)
+}
+#image3{
+   top:45vh;
+  right:calc(calc(100vw - 60vh) / 2)
+}
+#btnStart{
+  position:absolute;
+  top:85vh;
+  width:20vh;
+  font-size:4vh;
+  left: calc(50vw - 25vh);
+}
+#midp{
+  font-size:6vh;
+  margin-top:38vh;
+  text-align:center;
+}
+#midsmall{
+  font-size:3vh;
+  margin-top:1vh;
+  text-align:center;
+}
+#btnRestart{
+  position:absolute;
+  top:85vh;
+  width:20vh;
+  font-size:4vh;
+  left:calc(50vw + 5vh);
+}
+
+#strictText{
+   position:absolute;
+  top:75vh;
+  font-size:4vh;
+  right:calc(calc(100vw - 60vh) / 2);
+   color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+ cursor: pointer;
+
+
+}
+#strictText:hover,#strictText:focus{
+  text-decoration: underline;
+  color:#005dc1;
+}
+}

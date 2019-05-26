@@ -1,0 +1,45 @@
+html,body{
+  height:100%;
+}
+
+body{
+
+  margin:0;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+
+.main-nav {
+  font-size:25px;
+  top:0;
+  left:0;
+  right:0;
+  text-align:right;
+  border-bottom: 1px solid #ddd;
+  background: rgba(255, 255, 255, 0.5);
+  position:relative;
+  z-index:50;
+  }
+
+.main-nav a {
+    margin-right: 40px;
+    padding: 25px 0 20px;
+    color: #000;
+    display: inline-block;
+}
+
+.main-nav a:not(.logo):hover {
+    background-position: center 100%;
+    color: #e45c4c
+}
+
+.main-nav .logo {
+ display:block;
+ position:absolute;
+ left:30px;
+ overflow:hidden;
+}
