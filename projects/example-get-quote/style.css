@@ -1,0 +1,74 @@
+body{
+  background-color:#F2F2CC;
+  padding-top:10vh;
+  height:100%;
+}
+#quoteCard{
+  background-color:Lightblue;
+  border-radius:7%/30%;
+  min-height : 40vh;
+  border-color: #80B4BD;
+  border-width: 10px;
+}
+#quoteText{
+  padding-top:8%;
+}
+p{
+  font-size:calc(1vw + 1.8vh);
+  text-align:center;
+  margin-left:10%;
+  margin-right:10%;
+  color:#2A4C4C;
+  font-weight:bold;
+}
+i{
+  font-size:calc(1.1vw + 1.6vh);
+  text-align:center;
+  color:#2A4C4C;
+  font-weight:bold;
+}
+#author{
+  text-align:right;
+  margin-right:10%;
+  margin-bottom:8%;
+  font-size:calc(0.95vw + 1.45vh);
+  color:#466466;
+}
+.seperator{
+  height:4%;
+}
+#newQuote{
+  font-size:calc(2vw + 1.5vh);
+  font-weight:bold;
+  background-color:#80B4BD;
+  border-radius:5%/40%;
+  color:#2A4C4C;
+  width:25vw;
+  min-height:20vh;
+  margin-right:0.5vw;
+  margin-left:0.5vw;
+}
+#tweet{
+  margin-right:0.3vw;
+  margin-left:0.5vw;
+  width:10vw;
+  background-color:#80B4BD;
+  border-radius:7%/30%;
+  min-height:20vh;
+  font-size:calc(2vw + 1.5vh);
+}
+#tumblr{
+   margin-right:0.5vw;
+  margin-left:0.3vw;
+  width:10vw;
+  background-color:#80B4BD;
+  border-radius:7%/30%;
+  min-height:20vh;
+  font-size:calc(2vw + 1.5vh);
+}
+button:focus {
+  outline:0;
+}
+button:hover {
+  background-color:Lightblue !important;
+}
