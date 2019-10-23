@@ -1,0 +1,33 @@
+#timerCircle{
+  margin-top:10vh;
+  margin-bottom:5vh;
+}
+.timerBtn{
+  border-radius:50%;
+}
+#upButton{
+  padding-top:12px;
+}
+#downButton{
+  padding-top:12px;
+}
+#startButton{
+  width:100%;
+}
+.material-icons{
+  font-size:19px;
+}
+#timerState{
+  margin-top:20px;
+  color:#eaa535;
+  text-align:center;
+}
+#reset{
+  color:red;
+  text-decoration:none;
+  text-align:center;
+  cursor:pointer;
+}
+#reset:hover {
+     text-decoration:underline;
+}
