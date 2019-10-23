@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>중동고등학교 프로그래밍부</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../project_style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/Chalarangelo/mini.css/v2.3.4/dist/mini-default.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" charset="utf-8"></script>
+    <script src="script.js" charset="utf-8"></script>
+
+  </head>
+  <body>
+    <nav class="main-nav">
+      <a class="logo" href="/">로고</a>
+      <a class="nav-main" href="/">Main</a>
+      <a class="nav-about" href="/about">About</a>
+      <a class="nav-projects" href="/projects">Projects</a>
+    </nav>
+    <div class="content">
+      <div class="col-md-offset-3 col-md-6 ">
+        <div id = "quoteCard" class = "card fluid">
+            <div id = "quoteText">
+          </div>
+          <p id ="author">
+          </p>
+        </div>
+        <button id="tweet" onclick = "openTwitter()"><i class="fa fa-twitter" aria-hidden="true"></i>
+          </button>
+        <button id="newQuote" onclick="getQuote()">New</button>
+        <button id="tumblr" onclick = "openTumblr()"><i class="fa fa-tumblr" aria-hidden="true"></i></button>
+
+      </div>
+    </div>
+</body>
+</html>
