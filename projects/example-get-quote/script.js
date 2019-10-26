@@ -3,15 +3,15 @@ var author = "";
 function getQuote(){
   $.get("https://quotesondesign.com/wp-json/wp/v2/posts/?orderby=rand", function(a){
     console.log(a);
-    if(a[0].content.rendered.length < 125){
+    if(a[0].content.rendered.length < 300){
     var b = (a[0].content.rendered.substr(3,a[0].content.rendered.length-8)).split(/[\.]/)
       $("#quoteText").html("");
       for(var x = 0; x < b.length; x++){
-        $("#quoteText").append("<p>" + b[x] +".</p>");
+        $("#quoteText").append("<p>" + b[x] +"</p>");
         $("#quoteText").append("<div class='seperator'></div>")
       }
 
-      $("#author").html("- " + a[0].title);
+      $("#author").html("- " + a[0].title.rendered);
       text = createText(b);
       author = a[0].title.rendered;
     }else{
