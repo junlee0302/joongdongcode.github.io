@@ -23,7 +23,7 @@ position: relative;
   background-size: cover;
   content: "";
   display: block;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -36,6 +36,25 @@ a{
   text-decoration: none;
 }
 
+a.card-link{
+  color:inherit;
+}
+
+.card{
+  transition: all 0.2s ease-in-out;
+  box-sizing: border-box;
+  height: 30rem;
+}
+
+.card:hover{
+  box-shadow: 0 5px 5px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.card-holder{
+  width:18rem;
+  display:inline-block;
+  margin: 20px 10px 20px 10px;
+}
 
 .main-nav {
   font-size:25px;
@@ -45,7 +64,7 @@ a{
   text-align:right;
   border-bottom: 1px solid #ddd;
   background: rgba(255, 255, 255, 0.5);
-  position:fixed;
+  position:relative;
   z-index:50;
   }
 
