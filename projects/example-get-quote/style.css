@@ -43,28 +43,22 @@ i{
   background-color:#80B4BD;
   border-radius:5%/40%;
   color:#2A4C4C;
-  width:25vw;
   min-height:20vh;
-  margin-right:0.5vw;
-  margin-left:0.5vw;
+  width:100%;
 }
 #tweet{
-  margin-right:0.3vw;
-  margin-left:0.5vw;
-  width:10vw;
   background-color:#80B4BD;
   border-radius:7%/30%;
   min-height:20vh;
   font-size:calc(2vw + 1.5vh);
+  width:100%;
 }
 #tumblr{
-   margin-right:0.5vw;
-  margin-left:0.3vw;
-  width:10vw;
   background-color:#80B4BD;
   border-radius:7%/30%;
   min-height:20vh;
   font-size:calc(2vw + 1.5vh);
+  width:100%;
 }
 button:focus {
   outline:0;

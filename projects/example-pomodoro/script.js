@@ -134,18 +134,19 @@ function setHeader(a){
 }
 
 function reset(){
-  progressCircle.destroy()
-  progressCircle = new ProgressBar.Circle('#timerCircle', {
-    strokeWidth: 3,
-    trailWidth: 1,
-    text: {
-        value: '25 : 00'
-    }
-});
   duration = 0
   currentState = "study";
   pausedTime = 0
   paused = 0
   notPaused  = 0;
   currentTime = 0;
+  progressCircle.destroy()
+  progressCircle = new ProgressBar.Circle('#timerCircle', {
+    strokeWidth: 3,
+    trailWidth: 1,
+    text: {
+        value: '' + studyDurationMin + ' : 00'
+    }
+});
+  $("#startButton").html("Start");
 }

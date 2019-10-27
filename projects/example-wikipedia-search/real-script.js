@@ -12,11 +12,11 @@ $("#searchbar").keyup(function(event){
   }
 })
 function load(a){
+  $("#searchContent").html("")
   if(Array.isArray(a)){
     if(a[1].length){
     for(var x = 0; x < a[1].length; x++){
       var htmlCard = "<a class='title' href =" + a[3][x]+">" + a[1][x] + "</a><div class='page-content'>" + a[2][x] +"</div>"
-      $("#searchContent").html()
       $("#searchContent").append(htmlCard)
     }
     }else{
